@@ -250,7 +250,7 @@ ioall=$( awk 'BEGIN{print '$ioraw1' + '$ioraw2' + '$ioraw3'}' )
 ioavg=$( awk 'BEGIN{printf "%.1f", '$ioall' / 3}' )
 echo -e "Average I/O speed    : ${YELLOW}$ioavg MB/s${PLAIN}"
 next
-printf "%-18s%-18s%-20s%-12s\n" "Node Name" "Upload Speed" "Download Speed" "Latency"
+printf "%-20s%-22s%-24s%-18s\n" "节点名称" "上传速度" "下载速度" "延迟"
 speed && next
 end=$(date +%s) 
 time=$(( $end - $start ))
