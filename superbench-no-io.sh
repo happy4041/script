@@ -124,6 +124,7 @@ speed() {
 
     	speed_test '' '标准测速'
 	speed_test '5081' '深圳电信'
+	speed_test '5083' '上海电信'
 	speed_test '4515' '深圳移动'
 	speed_test '4377' '安徽移动'
 	speed_test '5724' '安徽联通'
