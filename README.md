@@ -23,8 +23,8 @@ Usage:
 
 | No.      | Bash Command                    |
 |----------|---------------------------------|
-| 1        | wget -qO- https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash       |
-| 2        | curl -Lso- https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash      |
+| 1        | wget -qO- https://raw.githubusercontent.com/happy4041/script/happy4041-patch-1/superbench.sh | bash       |
+| 2        | curl -Lso- https://raw.githubusercontent.com/happy4041/script/happy4041-patch-1/superbench.sh | bash      |
 ```
  
 
